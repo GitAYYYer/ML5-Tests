@@ -18,5 +18,8 @@ Once you are done adding images, press the 'Train Model' button and wait for the
 ## ml5_regression.js
 Slide to the desired value you want to give an image (e.g. you can associate the leftmost value 0 with an object in the left most side of the webcam, and the rightmost value 1 with the object in the right most side of the webcam). Add the current image as much as you want, and press 'Train Model' when you're done adding images. The model will give a predicted value out of the maximum (1 in this case) for the image.
 
+## Saving/Loading models
+The 'save' button will create a model.json and model.weights.bin file in your downloads folder (these save the current images you have added). Move both files into the directory with your index.html and ml5.js files. Press the 'load' button and you will load up your predefined model and skip the training process.
+
 ## Credit
 Thank you to the ml5 library and p5 library, and 'The Coding Train' youtube channel for creating informative videos on how to use ml5 (which are also based on the ml5 examples).
